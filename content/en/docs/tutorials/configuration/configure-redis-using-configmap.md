@@ -2,7 +2,7 @@
 reviewers:
 - eparis
 - pmorie
-title: Configure a Redis pod using a ConfigMap
+title: Configure a Redis Pod using a ConfigMap
 content_type: tutorial
 weight: 30
 ---
@@ -14,12 +14,12 @@ A ConfigMap is a Kubernetes object that stores configuration data in key-value p
 In this tutorial, you will learn:
 
 * How to create a ConfigMap containing Redis configuration values
-* How to apply the ConfigMap to a Redis pod in your Kubernetes cluster
-* How to modify properties in the ConfigMap and reapply them to the pod
+* How to apply the ConfigMap to a Redis Pod in your Kubernetes cluster
+* How to modify properties in the ConfigMap and reapply them to the Pod
 * How to verify that the configuration in your ConfigMap has been correctly applied
 
 **Tip:**
-If this is your first time using a ConfigMap to configure a pod, we suggest you start by following the more general [Configure a Pod to use a ConfigMap](http://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap) tutorial.
+If this is your first time using a ConfigMap to configure a Pod, we suggest you start by following the more general [Configure a Pod to use a ConfigMap](http://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap) tutorial.
 
 ## {{% heading "prerequisites" %}}
 
